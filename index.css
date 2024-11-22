@@ -1,10 +1,16 @@
+*{
+    font-family: Poppins;
+}
 h1{
     text-align: center;
     font-size: 40px;
     color: rgb(42, 102, 102);
-    font-family: 'Franklin Gothic Medium';
     font-weight: bold;
     text-decoration:underline;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
 }
 p{
     font-size: 18px;
@@ -24,18 +30,38 @@ video{
     justify-content: center;
 }
 
-fieldset{
-    width: fit-content;
-    padding: 10px;
-}
-legend{
-    font-size: 20px;
-}
-.centerd_button{
+.button_center{
+    /*display: block;*/
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 20px auto; 
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: gainsboro ;
+    color: black;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 button{
-    font-size: 15px;    
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;    
 }
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.info_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
