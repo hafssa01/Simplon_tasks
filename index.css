@@ -13,6 +13,9 @@ h2{
     text-decoration: underline;
 }
 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
 img{
@@ -21,13 +24,16 @@ img{
    height:auto;
    width: auto;
    border-radius: 30px;
+   margin: 30px 0px 0px 0px; 
 }
 video{
     border-radius: 30px;
+    margin: 10px 0px 10px 400px;
 }
 .centred_image{
     display: flex;
     justify-content: center;
+    margin: 30px 0px 0px 0px; 
 }
 
 .button_center{
@@ -38,10 +44,10 @@ video{
     margin: 20px auto; 
     padding: 10px 20px;
     font-size: 16px;
-    background-color: gainsboro ;
+    background-color: white ;
     color: black;
     border-color: black;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -62,6 +68,11 @@ input{
 }
 .info_form {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: rgb(195, 234, 255);
     padding: 20px;
+    margin: 0px 300px 60px 300px;
   }
+label{
+    font-size: 18px;
+    font-weight: 500px;
+}
